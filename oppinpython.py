@@ -1,14 +1,14 @@
 class Person:
     species = "humans"
 
-    def __init__(human, name, age):
+    def __init__(self, name, age):
         
-        human.name = name
-        human.age = age
+        self.name = name
+        self.age = age
 
    
-    def introduce(human):
-        return f"My name is {human.name} and I am {human.age} years old."
+    def introduce(self):
+        return f"My name is {self.name} and I am {self.age} years old."
 
 
 person1 = Person("Ishita", 19)
